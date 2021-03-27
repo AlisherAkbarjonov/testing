@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header img {
+    height: 40px;
+    margin-left: 150px;
+    margin-right: 20PX;
+    border-radius: 50%;
+}
+body {
+  
+    background-image: url(../img/myriam-jessier-eveI7MOcSmw-unsplash.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+}
+
+.container {
+    max-width: 85%;
+    margin: auto;
+   height: auto;
+    background-image: linear-gradient(-13deg, #fff 64%,#EF2A82 64% 65%, #172755 65% 100%);
+
+    
+}
+
+header {
+    background-color: #172755;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    z-index: 1;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+header h3{
+    color: #fff;
+
+}
+
+header li a {
+    color: #8794BA;
+    text-decoration: none;
+}
+header .ulBtn{
+margin-left: 180px;
+text-decoration: none;
+}
+.ulBtn button{
+    padding: 8px 39px;
+    border-radius: 15px;
+    border: 1px solid #8794BA;
+    background: none;
+    color: #8794BA;
+}
+.page1 {
+  padding: 100px 0 0 80px;
+  position: relative;
+  
+}
+.page1 h1{
+    font-size: 2.9rem;
+    color: #fff;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.page1 p{
+    margin-top: 7px;
+    color: #8794BA;
+}
+.page1 button{
+    margin-top: 28px;
+    padding: 14px 68px;
+    border-radius: 22px;
+    background-color: #EF2A82;
+    border: none;
+}
+.page1 a{
+    color: #fff;
+}
+.page1 img{
+    float: right;
+    position: absolute;
+    top: 19%;
+    right: -1%;
+    border-radius: 20px;
+}
+.page1 hr{
+    width: 59%;
+    height: 15px;
+   position: absolute;
+   left: -9px;
+   bottom: -39%;
+    transform: rotate(-13deg);
+    background-color: #EF2A82;
+    border: none;
+    
+}
+.page2 h1{
+    text-align: center;
+    margin-top: 230px;
+}
+.page2 p{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 24px;
+    color: #8794BA;
+    font-size: 14px;
+
+}
+.icons{
+    position: relative;
+
+
+}
+.icon1 {
+    color:#EF2A82;
+position: absolute;
+left: 6%;
+
+}
+.icon1 i{
+    font-size: 35px;
+    position: absolute;
+    bottom: 30%;
+    left: 28%;
+    
+}
+.icon1 h1{
+color: #172755;
+font-size: 16px;
+
+}
+.icon2 {
+    color:#EF2A82;
+position: absolute;
+left: 40%;
+
+}
+.icon2 i{
+    font-size: 35px;
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+    
+}
+.icon2 h1{
+color: #172755;
+font-size: 16px;
+}
+.icon3 {
+    color:#EF2A82;
+position: absolute;
+right: 50%;
+
+}
+.icon3 i{
+    font-size: 35px;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    
+}
+.icon3 h1{
+color: #172755;
+font-size: 16px;
+}
+.page3{
+    margin-top:35%;
+    margin-left: 10%;
+    display: flex
+}
+.page3 h2{
+    margin-top: 15px;
+    font-size: 19px;
+    color:#172755 ;
+   ;
+}
+.page3 .left{
+    width: 50%;
+}
+.page3 p{
+    margin-top: 15px;
+    font-size: 14px;
+    color:#8794BA ;
+   
+}
+.page3 img{
+
+    border-radius: 20px; 
+}
